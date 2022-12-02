@@ -50,6 +50,6 @@
         "allow-plugins": {
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": false
 }
