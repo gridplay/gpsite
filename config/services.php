@@ -1,18 +1,11 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | Third Party Services
-    |--------------------------------------------------------------------------
-    |
-    | This file is for storing the credentials for third party services such
-    | as Mailgun, Postmark, AWS and more. This file provides the de facto
-    | location for this type of information, allowing packages to have
-    | a conventional file to locate the various service credentials.
-    |
-    */
+    'gplogin' => [
+        'client_id' => env('GPLOGIN_CLIENT_ID'),
+        'client_secret' => env('GPLOGIN_CLIENT_SECRET'),
+        'redirect' => env('GPLOGIN_REDIRECT_URI'),
+    ],
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
