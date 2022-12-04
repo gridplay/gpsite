@@ -4,6 +4,7 @@
     "description": "The GridPlay Framework powered by Laravel.",
     "keywords": ["framework", "laravel", "gridplay"],
     "license": "MIT",
+    "version": "1.0.0",
     "require": {
         "php": "^8.0.2",
         "gridplay/gplogin": "1.0.x-dev",
